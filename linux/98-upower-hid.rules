@@ -1,3 +1,6 @@
 ATTRS{idVendor}=="2341", ENV{UPOWER_VENDOR}="Arduino"
 ATTRS{idVendor}=="2341", ATTRS{idProduct}=="8036", ENV{UPOWER_BATTERY_TYPE}="ups"
 
+# SparkFun 3.3V @8MHz Version
+ATTRS{idVendor}=="1b4f", ENV{UPOWER_VENDOR}="SparkFun"
+ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="9204", ENV{UPOWER_BATTERY_TYPE}="ups" 
